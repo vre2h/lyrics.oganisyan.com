@@ -1,11 +1,14 @@
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "PT Sans", sans-serif;
   margin: 20px;
   line-height: 1.4;
+  font-size: 16px;
 }
 
 pre {
-  font-family: "Oswald", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
 }
 
 main {
