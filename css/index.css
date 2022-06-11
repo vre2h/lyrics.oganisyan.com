@@ -9,6 +9,9 @@ pre {
   font-family: "PT Sans", sans-serif;
   line-height: 1.4;
   font-size: 16px;
+  word-break: break-all;
+  white-space: pre-wrap;
+  max-width: 100%;
 }
 
 main {
