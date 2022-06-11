@@ -18,7 +18,6 @@ main {
 .warning {
   color: #ccc;
   margin-top: -15px;
-  margin-bottom: 30px;
 }
 
 .error {
@@ -29,4 +28,35 @@ main {
 
 li {
   margin-bottom: 10px;
+}
+
+.song-navigation {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.song-navigation__item:nth-child(1) {
+  margin-right: 20px;
+}
+
+.credentials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+}
+
+.credentials__description {
+  margin-bottom: 0px;
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.main-navigation__item {
+  margin-right: 10px;
 }

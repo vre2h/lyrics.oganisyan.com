@@ -7,3 +7,19 @@ layout: layouts/main.njk
   {{ content | safe }}
 </main>
 
+<footer>
+  <section class="song-navigation">
+    {% if prevSong.url %}
+    <p class="ctr song-navigation__item">
+        <strong>⬅️</strong>
+        <a class="previous" href="{{ prevSong.url }}">{{ prevSong.data.title }}</a>
+    </p>
+    {% endif %}
+    {% if nextSong.url %}
+    <p class="ctr song-navigation__item">
+        <a class="next" href="{{ nextSong.url }}">{{ nextSong.data.title }}</a>
+        <strong>➡️</strong>
+    </p>
+    {% endif %}
+  </section>
+</footer>

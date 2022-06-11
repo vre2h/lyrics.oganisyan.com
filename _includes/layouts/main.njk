@@ -11,10 +11,17 @@
     </head>
     <body>
         <header>
-            <nav>
-                <a href="/index.html">Home</a>
+            <nav class="main-navigation">
+                <a class="main-navigation__item" href="/index.html">Home</a>
+                <a class="main-navigation__item" href="https://oganisyan.com" target="_blank">About</a>
             </nav>
         </header>
         {{ content | safe }}
     </body>
+    <section class="credentials">
+        <p class="credentials__description">
+            Created by humans on Planet Earth
+        </p>
+        <a href="https://oganisyan.com" target="_blank">oganisyan.com</a>
+    </section>
 </html>
